@@ -9,7 +9,7 @@ public class ConjuntoComportado {
     static void main() {
         // Set<String> listaAprovados = new HashSet<String>();
         // Set<String> listaAprovados = new HashSet<>(); // pode só colocar no primeiro a esquerda
-        // Generics 
+        // Generics
         SortedSet<String> listaAprovados = new TreeSet<>(); // lista ordenada com TreeSet
         listaAprovados.add("Ana");
         listaAprovados.add("Carlos");
