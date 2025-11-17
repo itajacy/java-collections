@@ -16,6 +16,14 @@ public class ProdutoTeste {
         System.out.println(p1.deepEquals(p2) );
 
 
+        System.out.println(p1.hashCode() );
+        System.out.println(p1.toString() );  // base decimal
+        System.out.println(Integer.parseInt("7b", 16) );  //base hexadecimal
+
+        System.out.println(Integer.toString(123, 2) );  //base binaria
+        System.out.println(Integer.toString(123, 10) );  //base decimal
+        System.out.println(Integer.toString(123, 16) );  //base hexa
+
 
 
     }
