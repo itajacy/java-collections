@@ -33,7 +33,7 @@ public class ConjuntoBaguncado {
         System.out.println(conjunto);
         System.out.println(nums);
 //        conjunto.retainAll(nums);  //intercecção entre os 2 conjuntos
-        conjunto.add(nums);  // união dos 2 conjuntos
+        conjunto.addAll(nums);  // união dos 2 conjuntos
         System.out.println(conjunto);
 
         conjunto.clear();  // limpa o conjunto
