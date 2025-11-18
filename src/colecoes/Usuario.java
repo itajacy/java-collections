@@ -22,6 +22,11 @@ public class Usuario {
         this.nome = nome;
     }
 
+
+    // Os métodos equals e hashcode no Usuario devem estar alinhados,
+    // usando os mesmos atributos  e somente será feita a busca com o equals
+    // se o hascode for compatível
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
@@ -29,9 +34,12 @@ public class Usuario {
         return id == usuario.id;
     }
 
+
+
     @Override
     public int hashCode() {
         return Objects.hashCode(id);
+//        return this.id;
     }
 
     @Override
@@ -41,4 +49,6 @@ public class Usuario {
                 ", nome='" + nome + '\'' +
                 '}';
     }
+
 }
+

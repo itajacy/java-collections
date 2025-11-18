@@ -7,7 +7,8 @@ public class Usuario {
     int id;
     String nome;
 
-    Usuario() {}
+    Usuario() {
+    }
 
     Usuario(int id) {
         this(id, "");
@@ -35,6 +36,8 @@ public class Usuario {
 
     @Override
     public int hashCode() {
+
         return Objects.hashCode(id);
+
     }
 }
