@@ -3,6 +3,7 @@ package colecoes;
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
+// FILA
 public class Fila {
     static void main() {
         // fila
@@ -32,10 +33,10 @@ public class Fila {
        System.out.println(">>>>> " + fila.remove()); //pega o primeiro da lista e remove
        System.out.println(">>>>> " + fila.poll()); //pega o primeiro da lista e remove
        System.out.println(">>>>> " + fila.remove()); //pega o primeiro da lista e remove
-       System.out.println(">>>>> " + fila.poll()); //pega o primeiro da lista e remove
-       System.out.println(">>>>> " + fila.poll()); //pega o primeiro da lista e remove
-       System.out.println(">>>>> " + fila.poll()); //Retorna o elemento ou nulo
-       System.out.println(">>>>> " + fila.remove()); //Retorna o Elemento ou lança exceção
+//       System.out.println(">>>>> " + fila.poll()); //pega o primeiro da lista e remove
+//       System.out.println(">>>>> " + fila.poll()); //pega o primeiro da lista e remove
+//       System.out.println(">>>>> " + fila.poll()); //Retorna o elemento ou nulo
+//       System.out.println(">>>>> " + fila.remove()); //Retorna o Elemento ou lança exceção
 
 
 //        System.out.println(fila.size());
